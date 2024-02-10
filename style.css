@@ -1,0 +1,97 @@
+.fundo_star_wars {
+    background-image: url('https://www.chromethemer.com/download/hd-wallpapers/star-wars-3840x2160.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: 'Star Jedi', sans-serif;
+    text-align: left;
+}
+
+.select, .procura-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+}
+
+.procura-input {
+    width: 96%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+}
+
+.procura-button {
+    cursor: pointer;
+    background-color: #FFD700;
+    color: black;
+}
+
+.results {
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.resultados {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+/* Estilo para o hover */
+.resultados:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Estilo para o texto dentro dos resultados no hover */
+.resultados:hover span {
+    color: #000; /* Altera a cor do texto ao passar o mouse */
+}
+
+.table-resultados{
+    font-family: 'Star Jedi', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+}
+
+#abertura {
+    background-color: #FFD700; /* Cor de fundo */
+    color: #000; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+#abertura:hover {
+    background-color: #FFA500; /* Cor de fundo ao passar o mouse */
+}

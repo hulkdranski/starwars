@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Testando API swapi</title>
+</head>
+<body class="fundo_star_wars">
+    <div class="container">
+        <h1 class="title">Escolha o que deseja procurar</h1>
+
+        <div class="procura-container">
+            <select name="opcao" id="opcao" class="select">
+                <option value="people">Personagens</option>
+                <option value="planets">Planetas</option>
+                <option value="starships">Naves</option>
+                <option value="films">Filmes</option>
+                <option value="species">Especies</option>
+                <option value="vehicles">Veiculos</option>
+            </select>
+            <input id="busca" class="procura-input" placeholder="Digite o que quer encontrar" type="text">
+            <button onclick=getInfos() class="procura-button">Consultar</button>
+        </div>
+        <div id="showInfos" class="results"></div>
+    </div>
+</body>
+</html>
