@@ -9,4 +9,10 @@
 	<p>
 		This project is a website made in HTML - CSS - Javascript where you can search a lot of things from Starwars universe, from the characters to the vehicles.
 	</p>
+	<h2 class="f4 my-3">
+		How to use?
+	</h2>
+	<p>
+		You can use this website by accessing hulkdranski.git.io/startwars or downloading all files and execute index.html.
+	</p>
 </div>
