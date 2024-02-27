@@ -13,6 +13,6 @@
 		How to use?
 	</h2>
 	<p>
-		You can use this website by accessing hulkdranski.github.io/starwars/s or downloading all files and execute index.html.
+		You can use this website by accessing hulkdranski.github.io/starwars/ or downloading all files and execute index.html.
 	</p>
 </div>
