@@ -1,3 +1,7 @@
+*{
+    overflow: hidden;
+}
+
 .fundo_star_wars {
     background-image: url('https://www.chromethemer.com/download/hd-wallpapers/star-wars-3840x2160.jpg');
     background-size: cover;
